@@ -6,17 +6,25 @@ body{
 }
 nav{
     background-color: #E10600;
-    width: 100%;
+    width: 100wh;
     height: 70px;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items : center;
+    margin-bottom : 10px;
+    
     
     
 }
 .navbar a {
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 20px;
+    background-color:transparent;
 
+}
+.banner  img {
+    width: 100%;
+    border-radius: 20px;
+    
 }
