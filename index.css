@@ -39,7 +39,7 @@ p{
 }
 
 .cards{
-   background-color: red;
+   background-color:azure;
    border-radius: 5px;
    height: 600px;
    display: flex;
@@ -78,4 +78,11 @@ p{
     width: 350px;
     margin-left: 10px;
     border-radius: 5px;
+}
+.cards img{
+    height: 600px;
+    width: 350px;
+}
+.card1 img{
+    width: 460px;
 }
