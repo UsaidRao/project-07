@@ -4,6 +4,7 @@ body{
     tex
 
 }
+
 nav{
     background-color: #E10600;
     width: 100wh;
@@ -13,8 +14,6 @@ nav{
     justify-content: space-around;
     align-items : center;
     margin-bottom : 10px;
-    
-    
     
 }
 .navbar a {
@@ -37,4 +36,46 @@ h1{
 }
 p{
     font-size: 20px;
+}
+
+.cards{
+   background-color: red;
+   border-radius: 5px;
+   height: 600px;
+   display: flex;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+   
+}
+.card1{
+    background-color: yellow;
+    height: 600px;
+    width: 460px;
+    margin-left: 10px;
+    border-radius: 5px;
+   
+}
+.card2{
+    background-color: yellow;
+    height: 600px;
+    width: 350px;
+    margin-left:10px;
+    border-radius: 5px;
+    
+    
+}
+.card3{
+    background-color: yellow;
+    height: 600px;
+    width: 350px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.card4{
+    background-color: yellow;
+    height: 600px;
+    width: 350px;
+    margin-left: 10px;
+    border-radius: 5px;
 }
