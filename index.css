@@ -6,7 +6,7 @@ body{
 }
 
 nav{
-    background-color: #E10600;
+    background-color:rgba(0, 180, 180, 0.233);
     width: 100wh;
     height: 70px;
     border-radius: 20px;
@@ -27,12 +27,12 @@ nav{
     border-radius: 20px;
 }
 .whereabouts{
-   width: 850px;
+   width: 1024px;
 }
 h1{
     font-size: 80px;
     margin-bottom: 0px;
-    
+    font-style: arial;    
 }
 p{
     font-size: 20px;
@@ -86,4 +86,7 @@ p{
 }
 .card1 img{
     width: 460px;
+}
+.whereabouts2 {
+      width: 650px;
 }
