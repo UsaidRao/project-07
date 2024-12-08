@@ -96,3 +96,8 @@ p{
 .whereabouts2 {
       width: 650px;
 }
+.btn{
+    display: flex ;
+    justify-content: end;
+
+}
