@@ -1,7 +1,7 @@
 body{
     background-color: azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    tex
+
 
 }
 
@@ -86,6 +86,12 @@ p{
 }
 .card1 img{
     width: 460px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 5px;
 }
 .whereabouts2 {
       width: 650px;
