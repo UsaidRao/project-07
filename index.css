@@ -83,3 +83,26 @@ p{
     justify-content: end;
     padding-right: 100px;
 }
+.footercontainer{
+    padding-bottom: 30px;
+     background-color:red;
+     display: flex;
+     justify-content: space-evenly;
+     
+ }
+ 
+ .footercolumn h3{
+ 
+     flex-direction: column;
+ }
+ 
+ .footercolumn a{
+     
+     margin-left: 2px;
+     display: grid;
+     text-decoration: none;
+     color: black;
+     margin-bottom: 10px;
+ }
+ 
+ 
