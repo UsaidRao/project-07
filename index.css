@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 10px;
     background-color: azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -17,10 +19,13 @@ nav{
     
 }
 .navbar a {
+    color: black;
     text-decoration: none;
     margin-left: 20px;
-    background-color:transparent;
+}
 
+.navbar a:hover{
+    border-bottom: solid;
 }
 .banner  img {
     width: 100%;
@@ -48,50 +53,27 @@ p{
    
    
 }
-.card1{
-    background-color: yellow;
-    height: 600px;
-    width: 460px;
-    margin-left: 10px;
-    border-radius: 5px;
-   
-}
+
 .card2{
     background-color: yellow;
     height: 600px;
     width: 350px;
     margin-left:10px;
-    border-radius: 5px;
-    
-    
+    border-radius: 5px; 
 }
-.card3{
-    background-color: yellow;
-    height: 600px;
-    width: 350px;
-    margin-left: 10px;
-    border-radius: 5px;
-}
-.card4{
-    background-color: yellow;
-    height: 600px;
-    width: 350px;
-    margin-left: 10px;
-    border-radius: 5px;
-}
+
 .cards img{
     height: 600px;
     width: 350px;
     border-radius: 5px;
 }
-.card1 img{
-    width: 460px;
-}
+
 .box2{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 100px;
     margin-right: 5px;
+    margin-bottom: 50px;
 }
 .whereabouts2 {
       width: 650px;
@@ -99,5 +81,5 @@ p{
 .btn{
     display: flex ;
     justify-content: end;
-
+    padding-right: 100px;
 }
